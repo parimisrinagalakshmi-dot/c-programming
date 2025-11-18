@@ -1,14 +1,13 @@
 #include <stdio.h>
 int main()
 {
-  int l,b,area;
-  printf("enter l value");
-  scanf("%d",&l);
+  float b,h,area;
   printf("enter b value");
-  scanf("%d",b);
-   area= l*b;
-  printf("area of rectangle=%d",area);
+  scanf("%f",&b);
+  printf("enter h value");
+  scanf("%f",&h);
+   area= b*h/2;
+  printf("area of triangle=%f",area);
   return 0;
-  
 }
   
